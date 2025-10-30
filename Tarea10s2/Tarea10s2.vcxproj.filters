@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Principal.cpp" />
+    <ClCompile Include="FrmFigurasMovimiento.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrmCompetenciaFiguras.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrmJuegoService.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="JuegoService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="FigurasMovimiento.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="CompetenciaFiguras.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Circulo.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuadrado.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Elipse.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Figura.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulo.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangulo.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrmFigurasMovimiento.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrmCompetenciaFiguras.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrmJuegoService.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CompetenciaFiguras.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="FigurasMovimiento.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="JuegoService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Figura.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulo.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Circulo.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Elipse.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuadrado.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangulo.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
