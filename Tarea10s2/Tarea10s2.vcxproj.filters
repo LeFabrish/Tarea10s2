@@ -16,9 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Principal.cpp" />
-    <ClCompile Include="FrmFigurasMovimiento.cpp">
-      <Filter>UI</Filter>
-    </ClCompile>
     <ClCompile Include="FrmCompetenciaFiguras.cpp">
       <Filter>UI</Filter>
     </ClCompile>
@@ -52,11 +49,14 @@
     <ClCompile Include="Rectangulo.cpp">
       <Filter>Model</Filter>
     </ClCompile>
+    <ClCompile Include="FrmFigurasMovimiento.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Rombo.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FrmFigurasMovimiento.h">
-      <Filter>UI</Filter>
-    </ClInclude>
     <ClInclude Include="FrmCompetenciaFiguras.h">
       <Filter>UI</Filter>
     </ClInclude>
@@ -88,6 +88,12 @@
       <Filter>Model</Filter>
     </ClInclude>
     <ClInclude Include="Rectangulo.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="FrmFigurasMovimiento.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Rombo.h">
       <Filter>Model</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,6 +1,6 @@
 #include "Elipse.h"
-Elipse::Elipse(int _x, int _y, int _diametro, int _r, int _g, int _b,bool fijo) :
-	Figura(_x, _y, _diametro, _diametro, _r, _g, _b, "Elipse", fijo) {
+Elipse::Elipse(int _x, int _y, int _ancho,int _alto, int _r, int _g, int _b,bool fijo) :
+	Figura(_x, _y, _ancho, _alto, _r, _g, _b, "Elipse", fijo) {
 }
 void Elipse::dibujar(Graphics^ gra) {
 	// Tener color

@@ -125,6 +125,7 @@
     <ClCompile Include="JuegoService.cpp" />
     <ClCompile Include="Principal.cpp" />
     <ClCompile Include="Rectangulo.cpp" />
+    <ClCompile Include="Rombo.cpp" />
     <ClCompile Include="Triangulo.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -152,7 +153,13 @@
     </ClInclude>
     <ClInclude Include="JuegoService.h" />
     <ClInclude Include="Rectangulo.h" />
+    <ClInclude Include="Rombo.h" />
     <ClInclude Include="Triangulo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmFigurasMovimiento.resx">
+      <DependentUpon>FrmFigurasMovimiento.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,8 +1,6 @@
 #pragma once
 #include "Figura.h"
 
-using namespace System;
-using namespace System::Drawing;
 
 class Triangulo :
 	public Figura

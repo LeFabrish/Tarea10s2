@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-using namespace std;
+
 using namespace System;
 using namespace System::Drawing;
 class Figura
@@ -12,10 +12,10 @@ protected:
 		ancho, alto,
 		vida, danho,
 		dx, dy;
-	string tipo;
+	std::string tipo;
 	bool estaVivo, esFijo;
 public:
-	Figura(int _x, int _y, int anch, int alt, int _r, int _g, int _b, string type, bool esFijo);
+	Figura(int _x, int _y, int anch, int alt, int _r, int _g, int _b, std::string type, bool esFijo);
 	~Figura();
 	// getters
 	int getX();
@@ -29,7 +29,7 @@ public:
 	int getDanho();
 	int getDx();
 	int getDy();
-	string getTipo();
+	std::string getTipo();
 	bool getEstaVivo();
 	bool getEsFijo();   
 	// setters

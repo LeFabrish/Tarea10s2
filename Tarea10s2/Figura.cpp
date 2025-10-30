@@ -1,7 +1,7 @@
 #include "Figura.h"
 
 // Constructor
-Figura::Figura(int _x, int _y, int anch, int alt, int _r, int _g, int _b, string type, bool _esFijo)
+Figura::Figura(int _x, int _y, int anch, int alt, int _r, int _g, int _b, std::string type, bool _esFijo)
 {
 	this->x = _x;
 	this->y = _y;
@@ -36,7 +36,7 @@ int Figura::getVida() { return vida; }
 int Figura::getDanho() { return danho; }
 int Figura::getDx() { return dx; }
 int Figura::getDy() { return dy; }
-string Figura::getTipo() { return tipo; }
+std::string Figura::getTipo() { return tipo; }
 bool Figura::getEstaVivo() { return estaVivo; }
 bool Figura::getEsFijo() { return esFijo; }
 
